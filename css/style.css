@@ -141,10 +141,20 @@ a {
     flex-direction: row;
 }
 
+.skills-contacts{
+    background-color: var(--lightgrey);
+}
 .skills__title {
     font-style: 30px;
 }
 
+.map{
+        min-height: 572px;
+        width: 100%;
+        background-color: var(--lightgrey);
+        position: relative;
+        padding-bottom: 100px;
+    }
 .bar__item {
     padding-top: 30px;
     margin-bottom: 20px;
