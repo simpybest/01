@@ -38,6 +38,19 @@ a {
     text-decoration: none;
     color: inherit;
 }
+.hero__inner-about{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.hero-about {
+    background-color: white;
+    padding-top: 130px;
+    padding-bottom: 230px;
+}
+.form-about{
+    padding: 100px;
+}
 .about__inner, .work-process__inner, .services__inner {
     display: flex;
     align-items: center;
@@ -116,16 +129,16 @@ a {
 .about, .work-process {
     padding: 90px 0;
 }
-
+.skills__item {
+    width: 50%;
+    text-align: left;
+    padding: 110px 100px 150px;
+    background-color:#f5f5f5;
+}
 
 .skills__inner {
     display: flex;
     flex-direction: row;
-}
-
-.skills__item {
-    width: 50%;
-    padding: 110px 0 150px;
 }
 
 .skills__title {
@@ -218,9 +231,9 @@ a {
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
-    transition: 0.19s linear;
+    transition: 0.4s linear;
 }
-.work-footer:hover{
+.work-footer, .page__link:hover{
     color: #10c9c3;
 }
 
@@ -303,6 +316,11 @@ a {
 .form {
     padding: 100px 0;
     background-color: var(--lightgrey);
+}
+.form-dark {
+    padding: 100px 0;
+    background-color: #3e3e3e;
+    color: white;
 }
 .forms {
     padding: 40px 0;
@@ -394,6 +412,52 @@ input {
     --lightgrey: #f5f5f5;
     --white: #ffffff;
     --blue: #10c9c3;
+}
+.slider__inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.slider__item {
+    width: 50%;
+    padding: 110px 0 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider__title {
+    font-size: 38px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.slider__text {
+    padding-bottom: 30px;
+    max-width: 510px;
+}
+
+.slider__pages {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__span {
+    padding-top: 16px;
+}
+
+.page__link {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.page__link:hover {
+    cursor: pointer;
+}
+
+.page__link img {
+    padding: 0px;
 }
 .work-width{
     max-width: 1920px;
